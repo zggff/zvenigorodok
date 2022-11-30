@@ -4,7 +4,7 @@
 
 	export let target: ReviewTarget;
 
-	let show_reviews = true;
+	let show_reviews = false;
 	let reviews: Review[] = [];
 	const get_reviews = async () => {
 		const data: Review[] = await (await fetch(`/api/reviews?target=${target}`)).json();
