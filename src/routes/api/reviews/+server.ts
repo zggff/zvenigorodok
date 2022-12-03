@@ -1,6 +1,6 @@
-import type { RequestHandler } from './$types';
+import type { RequestHandler } from '@sveltejs/kit';
 
-import type { Review, ReviewTarget } from '$lib/reviews';
+import type { Review } from '$lib/reviews';
 import db from '$lib/db';
 import { json } from '@sveltejs/kit';
 
