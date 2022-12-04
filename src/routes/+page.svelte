@@ -10,7 +10,8 @@
 		name="keywords"
 		content="Звенигород, шиномонтаж, качественный шиномонтаж, zvenigorodok, по записи "
 	/>
-	<meta name="description" content="шиномонтаж в Звенигороде" />
+	<meta name="description" content="качественный шиномонтаж в Звенигороде" />
+	<title>шиномонтаж в Звенигороде</title>
 </svelte:head>
 
 <h1 class="text-center text-red-500 text-4xl">шиномонтаж</h1>
