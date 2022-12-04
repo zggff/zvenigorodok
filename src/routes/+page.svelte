@@ -6,7 +6,10 @@
 </script>
 
 <svelte:head>
-	<meta name="keywords" content="Звенигород, шиномонтаж, запись, zvenigorodok, звенигородок" />
+	<meta
+		name="keywords"
+		content="Звенигород, шиномонтаж, качественный шиномонтаж, zvenigorodok, по записи "
+	/>
 	<meta name="description" content="шиномонтаж в Звенигороде" />
 </svelte:head>
 

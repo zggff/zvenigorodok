@@ -5,7 +5,7 @@
 <svelte:head>
 	<meta
 		name="keywords"
-		content="Звенигород, шимчистка, ковары, мягкая мебель, zvenigorodok, звенигородок"
+		content="Звенигород, шимчистка, ковры, мягкая мебель, zvenigorodok, звенигородок"
 	/>
 	<meta name="description" content="шимчистка ковров и мягкой мебели в Звенигороде" />
 </svelte:head>
