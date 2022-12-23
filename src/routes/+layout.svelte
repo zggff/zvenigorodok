@@ -4,7 +4,8 @@
 
 	const destinations = [
 		{ href: '/', text: 'шиномонтаж' },
-		{ href: '/cleaning', text: 'химчистка' }
+		{ href: '/cleaning', text: 'химчистка' },
+		{ href: '/master', text: 'мастер' }
 	];
 </script>
 

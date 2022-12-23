@@ -1,5 +1,7 @@
 <script lang="ts">
 	import Reviews from '$lib/components/Reviews.svelte';
+	import Image from '$lib/components/Image.svelte';
+	import Cleaning1 from '$lib/assets/images/cleaning1.webp';
 </script>
 
 <svelte:head>
@@ -37,4 +39,8 @@
 	После проведенных нами работ на вашем ковре не останется никаких следов грязи, пятен и разводов.
 	Мы уверенно гарантируем абсолютную чистоту ковров и мягкой мебели!
 </p>
+<h2>Галерея</h2>
+<div class="flex justify-center flex-wrap gap-4">
+	<Image src={Cleaning1} alt="test" class="my-image w-[30rem]" />
+</div>
 <Reviews target="Cleaning" />

@@ -14,3 +14,9 @@
 		@apply bg-slate-100;
 	}
 }
+
+@layer components {
+	.my-image {
+		@apply h-80 w-60 rounded hover:-translate-y-1 hover:opacity-80;
+	}
+}

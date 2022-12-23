@@ -17,13 +17,18 @@
 				callbackFunction();
 			}
 		}
+		function onScroll() {
+			callbackFunction();
+		}
 		document.body.addEventListener('click', onClick);
+		window.addEventListener('scroll', onScroll);
 		return {
 			update(newCallbackFunction: any) {
 				callbackFunction = newCallbackFunction;
 			},
 			destroy() {
 				document.body.removeEventListener('click', onClick);
+				window.removeEventListener('scroll', onScroll);
 			}
 		};
 	}
@@ -33,7 +38,7 @@
 	<div class="h-14" />
 	<nav
 		use:clickOutside={() => (is_open = false)}
-		class="z-50 fixed top-0 flex flex-wrap items-center justify-between px-1 bg-white w-full"
+		class="z-30 fixed top-0 flex flex-wrap items-center justify-between px-1 bg-white w-full"
 	>
 		<div class="w-full px-1 mx-auto flex flex-wrap items-center justify-between">
 			<div
